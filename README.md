@@ -7,3 +7,5 @@ Projeto criado usando template [thirdweb](https://thirdweb.com/) and [next](http
 Uma aplicação que interage com um [smart contract](https://github.com/Maycon-Rodrigues/web3-course-contract) aonde é possivel criar cursos (_funcionálidade sómente para o dono do smart contract_) e compar cursos com crypto moedas.
 
 Um projeto simples para aprender a criar uma aplicação web3.
+
+![screenshot](https://raw.githubusercontent.com/Maycon-Rodrigues/web3-course-dapp/main/screenshot.png)
