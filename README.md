@@ -8,4 +8,7 @@ Uma aplicação que interage com um [smart contract](https://github.com/Maycon-R
 
 Um projeto simples para aprender a criar uma aplicação web3.
 
+⛓Chain: BNB Testnet
+[BNB FAUCET](https://www.bnbchain.org/en/testnet-faucet)
+
 ![screenshot](https://raw.githubusercontent.com/Maycon-Rodrigues/web3-course-dapp/main/screenshot.png)
