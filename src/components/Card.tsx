@@ -32,17 +32,18 @@ export const Card: React.FC<CardProps> = ({
           </div>
         )
       ) : (
-        <div className="flex items-center justify-center z-5 w-64 h-10 bg-violet-600 absolute top-20 right-30 cursor-pointer hover:bg-violet-500 shadow-lg shadow-black">
-          <span className="font-bold">Buyed</span>
+        <div className="flex items-center justify-center z-5 w-64 h-10 bg-black/90 absolute bottom-2 right-30">
+          <span className="font-bold text-white">Buyed</span>
         </div>
       )}
       <div className="w-full h-full rounded overflow-hidden shadow-lg shadow-violet-500/50 bg-white flex flex-col">
         <Image
-          width={256}
-          height={256}
-          className="w-full h-40 object-cover"
-          src={image ? image : 'https://www.w3schools.com/howto/img_avatar.png'}
-          alt={`${name}'s avatar`}
+          width={240}
+          height={240}
+          className="w-full h-40 mt-2 rounded"
+          src={image ? image : 'thirdweb.svg'}
+          loading='lazy'
+          alt={`${name}'s image`}
         />
         <div className="px-6 py-4 flex flex-col justify-between flex-grow">
           <div>
@@ -53,7 +54,7 @@ export const Card: React.FC<CardProps> = ({
               {description}
             </p>
           </div>
-          <div className="text-gray-400 text-left text-sm">
+          <div className={checkIfBuyed ? "text-gray-400 text-left text-sm" : "text-gray-800 text-left text-sm"}>
             {`BNB: ${ethers.utils.formatEther(price)}`}
           </div>
         </div>
