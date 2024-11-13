@@ -64,7 +64,7 @@ export default function Home() {
                       checkIfConnected={address.length > 0}
                       name={item.name}
                       description={item.description}
-                      image="https://imgs.search.brave.com/iZTc4LskyXni6LPeNuIIH4HQ7F52Meb8b7417v0nUFg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9icmFu/ZGl0ZWNodHVyZS5h/Z2VuY3kvYnJhbmQt/bG9nb3Mvd3AtY29u/dGVudC91cGxvYWRz/L3dwZG0tY2FjaGUv/U29saWRpdHktOTAw/eDAucG5n"
+                      image="solidity.svg"
                       price={item.price}
                       onClick={() => handleByCourse(item.courseId, item.price)}
                     />
